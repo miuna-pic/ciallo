@@ -92,7 +92,7 @@ const App = () => {
         const x = event.pageX;
         const y = event.pageY;
         const span = document.createElement('span')
-        span.innerHTML = 'Ciallo～(∠・ω< )⌒★';
+        span.innerHTML = '王文宇，Ciallo～(∠・ω< )⌒★';
         span.style.cssText = `position: absolute; left: ${x}px; top: ${y - 20}px; color: ${randomColor()}; bold;`;
         document.body.appendChild(span);
         const animation = span.animate({
