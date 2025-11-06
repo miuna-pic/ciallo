@@ -7,7 +7,7 @@ import "./index.css";
 const Ciallo = ({ dur = 20, color = 'red', size = "15px" }) => {
     return (
         <p className="ciallo" style={{ animationDuration: `${dur}s`, color: color, fontSize: size }} >
-            Ciallo～(∠・ω&lt; )⌒★
+            王文宇，Ciallo～(∠・ω&lt; )⌒★
         </p>
     )
 }
